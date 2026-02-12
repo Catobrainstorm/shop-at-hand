@@ -31,7 +31,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 
           {/* Desktop Links - Hovering with #FF7300 */}
           <div className="hidden md:flex gap-10 text-[10px] font-black uppercase tracking-[0.4em]" style={{ color: 'rgba(226, 207, 200, 0.4)' }}>
-            <Link href="/" className="transition-all hover:text-[#FF7300]">Infrastructure</Link>
+            <Link href="/" className="transition-all hover:text-[#FF7300]">Home</Link>
             <Link href="/scanner" className="transition-all hover:text-[#FF7300]">Verify</Link>
             <Link href="/map" className="transition-all hover:text-[#FF7300]">Map</Link>
           </div>
