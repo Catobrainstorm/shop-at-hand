@@ -40,13 +40,15 @@ export default function ShopAtHand() {
         </div>
 
         <div className="relative z-10 w-full max-w-7xl mx-auto text-center px-4">
+          {/* Changed text below as requested */}
           <div className="inline-flex items-center gap-2 bg-brandRed/10 border border-brandRed/30 backdrop-blur-md px-5 py-2 rounded-full text-brandRed text-[9px] md:text-[11px] font-black uppercase tracking-[0.3em] mb-12 shadow-[0_0_20px_rgba(246,54,0,0.2)]">
-            <ShieldCheck size={16} className="animate-pulse" /> Reality-Filtered Infrastructure
+            <ShieldCheck size={16} className="animate-pulse" /> Decentralized Trust Protocol
           </div>
 
-          <h1 className="text-[clamp(2.8rem,13vw,9rem)] font-black leading-[0.85] tracking-[-0.05em] mb-12 uppercase text-white">
-            GET THE <span className="text-brandRed text-glow-red">REAL</span> <br/>
-            DEAL. <span className="text-brandOrange italic">FAST.</span>
+          {/* Changed headline below as requested */}
+          <h1 className="text-[clamp(2.5rem,10vw,8rem)] font-black leading-[0.9] tracking-[-0.05em] mb-12 uppercase text-white">
+            FIND IT. <br /> <span className="text-brandRed text-glow-red">VERIFY IT.</span> <br/>
+            <span className="text-brandOrange">BUY IT.</span>
           </h1>
 
           <form onSubmit={handleQuickSearch} className="max-w-3xl mx-auto mb-16 relative group">
